@@ -13,9 +13,9 @@ df = pd.read_excel(file_path)
 # Email settings
 SMTP_SERVER = "smtp.gmail.com"  # Change if using Outlook/Yahoo
 SMTP_PORT = 587
-EMAIL_ADDRESS = "choubey.nitya24@gmail.com"  # Your email
-EMAIL_PASSWORD = "ofkv bclg khdf gnzt"  # Use an app password if required
-RESUME_PATH = r"C:\Users\cnity\Downloads\22BAI71210_Nityanand_Choubey.pdf"  # Update with actual resume path
+EMAIL_ADDRESS = "test.4@gmail.com"  # Your email
+EMAIL_PASSWORD = "ofkv bclg khdf jtbl"  # Use an app password if required
+RESUME_PATH = r"C:\Users\cnity\Downloads\resume.pdf"  # Update with actual resume path
 
 # Create SMTP session
 server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
@@ -45,9 +45,9 @@ I hope this email finds you well. I am a 3rd year CSE student and I am writing t
 Looking forward to hearing from you.
 
 Best regards,  
-Nityanand Choubey  
-9310331307
-https://www.linkedin.com/in/nitya-choubey/
+Name
+Ph. No.
+any other details
 """
     msg.attach(MIMEText(body, "plain"))
 
